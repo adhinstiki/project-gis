@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="TUF" projectname="" saveDateTime="2024-12-18T21:13:40" saveUserFull="TUF" version="3.38.3-Grenoble">
+<qgis saveUser="TUF" projectname="TUGAS_SIG" saveDateTime="2024-12-18T21:39:09" saveUserFull="TUF" version="3.38.3-Grenoble">
   <homePath path=""/>
-  <title></title>
+  <title>TUGAS_SIG</title>
   <transaction mode="Disabled"/>
   <projectFlags set=""/>
   <projectCrs>
@@ -40,7 +40,7 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-group name="SHP GROUP" expanded="1" checked="Qt::Checked" groupLayer="">
+    <layer-tree-group name="SHP GROUP" expanded="0" checked="Qt::Checked" groupLayer="">
       <customproperties>
         <Option/>
       </customproperties>
@@ -65,7 +65,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="GPKG GROUP" expanded="1" checked="Qt::Checked" groupLayer="">
+    <layer-tree-group name="GPKG GROUP" expanded="0" checked="Qt::Checked" groupLayer="">
       <customproperties>
         <Option/>
       </customproperties>
@@ -90,7 +90,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer source="type=xyz&amp;zmin=0&amp;zmax=20&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D{x}%26y%3D{y}%26z%3D{z}" legend_exp="" providerKey="wms" name="Google Terrain" id="Google_Terrain_2a1373ae_f911_4a19_997f_6b3a425c18a8" expanded="1" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0">
+    <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0" legend_exp="" providerKey="wms" name="Google Terrain" id="Google_Terrain_2a1373ae_f911_4a19_997f_6b3a425c18a8" expanded="1" checked="Qt::Checked" patch_size="-1,-1" legend_split_behavior="0">
       <customproperties>
         <Option/>
       </customproperties>
@@ -110,15 +110,15 @@
   </layer-tree-group>
   <snapping-settings enabled="0" tolerance="12" scaleDependencyMode="0" minScale="0" unit="1" self-snapping="0" intersection-snapping="0" mode="2" type="1" maxScale="0">
     <individual-layer-settings>
-      <layer-setting enabled="0" tolerance="12" minScale="0" id="jalan_941c79c9_f8fe_48f5_af0f_343d0d56303a" units="1" type="1" maxScale="0"/>
+      <layer-setting enabled="0" tolerance="12" minScale="0" id="jalan_8bf147f4_f3ab_4afb_bee8_b60b9565fe69" units="1" type="1" maxScale="0"/>
+      <layer-setting enabled="0" tolerance="12" minScale="0" id="ADMINISTRASIDESA_AR_1352a490_5246_4eb3_beca_3fd2b5052bbf" units="1" type="1" maxScale="0"/>
+      <layer-setting enabled="0" tolerance="12" minScale="0" id="data_kampus_84fe088a_7cc8_4ff4_8152_98817af4002e" units="1" type="1" maxScale="0"/>
       <layer-setting enabled="0" tolerance="12" minScale="0" id="data_kampus_3d2deb6b_60b2_4a30_92e7_c5e2ce9611d7" units="1" type="1" maxScale="0"/>
-      <layer-setting enabled="0" tolerance="12" minScale="0" id="data_minimarket_68de4f0c_78a7_41ff_afdb_1e334ec826e1" units="1" type="1" maxScale="0"/>
       <layer-setting enabled="0" tolerance="12" minScale="0" id="data_minimarket_94789872_092c_4e88_b4dd_c4543771800d" units="1" type="1" maxScale="0"/>
       <layer-setting enabled="0" tolerance="12" minScale="0" id="data_kafe_fc20aaaf_f6b8_4fa1_91ea_858033fa220b" units="1" type="1" maxScale="0"/>
-      <layer-setting enabled="0" tolerance="12" minScale="0" id="ADMINISTRASIDESA_AR_1352a490_5246_4eb3_beca_3fd2b5052bbf" units="1" type="1" maxScale="0"/>
-      <layer-setting enabled="0" tolerance="12" minScale="0" id="jalan_8bf147f4_f3ab_4afb_bee8_b60b9565fe69" units="1" type="1" maxScale="0"/>
+      <layer-setting enabled="0" tolerance="12" minScale="0" id="data_minimarket_68de4f0c_78a7_41ff_afdb_1e334ec826e1" units="1" type="1" maxScale="0"/>
       <layer-setting enabled="0" tolerance="12" minScale="0" id="data_kafe_cd01db24_3fb0_4954_b085_07133b4072a7" units="1" type="1" maxScale="0"/>
-      <layer-setting enabled="0" tolerance="12" minScale="0" id="data_kampus_84fe088a_7cc8_4ff4_8152_98817af4002e" units="1" type="1" maxScale="0"/>
+      <layer-setting enabled="0" tolerance="12" minScale="0" id="jalan_941c79c9_f8fe_48f5_af0f_343d0d56303a" units="1" type="1" maxScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -155,7 +155,7 @@
         <legendlayerfile isInOverview="0" visible="1" layerid="ADMINISTRASIDESA_AR_1352a490_5246_4eb3_beca_3fd2b5052bbf"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" name="SHP GROUP" checked="Qt::Checked">
+    <legendgroup open="false" name="SHP GROUP" checked="Qt::Checked">
       <legendlayer drawingOrder="-1" open="true" name="jalan" showFeatureCount="0" checked="Qt::Checked">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" visible="1" layerid="jalan_941c79c9_f8fe_48f5_af0f_343d0d56303a"/>
@@ -177,7 +177,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" name="GPKG GROUP" checked="Qt::Checked">
+    <legendgroup open="false" name="GPKG GROUP" checked="Qt::Checked">
       <legendlayer drawingOrder="-1" open="true" name="jalan" showFeatureCount="0" checked="Qt::Checked">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" visible="1" layerid="jalan_8bf147f4_f3ab_4afb_bee8_b60b9565fe69"/>
@@ -293,18 +293,6 @@
   </main-annotation-layer>
   <projectlayers>
     <maplayer simplifyDrawingTol="1" simplifyAlgorithm="0" geometry="Polygon" legendPlaceholderImage="" simplifyLocal="1" minScale="100000000" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" type="vector" autoRefreshMode="Disabled" autoRefreshTime="0" symbologyReferenceScale="-1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" wkbType="MultiPolygonZ" labelsEnabled="0">
-      <extent>
-        <xmin>115.17369792100011239</xmin>
-        <ymin>-8.7523715909999531</ymin>
-        <xmax>115.27427135900008182</xmax>
-        <ymax>-8.59172800100001055</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>115.17369792100011239</xmin>
-        <ymin>-8.7523715909999531</ymin>
-        <xmax>115.27427135900008182</xmax>
-        <ymax>-8.59172800100001055</ymax>
-      </wgs84extent>
       <id>ADMINISTRASIDESA_AR_1352a490_5246_4eb3_beca_3fd2b5052bbf</id>
       <datasource>./ADMINISTRASIDESA_AR.shp</datasource>
       <keywordList>
@@ -2651,7 +2639,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>85.05112877980660357</ymax>
       </wgs84extent>
       <id>Google_Terrain_2a1373ae_f911_4a19_997f_6b3a425c18a8</id>
-      <datasource>type=xyz&amp;zmin=0&amp;zmax=20&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D{x}%26y%3D{y}%26z%3D{z}</datasource>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2844,18 +2832,6 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer simplifyDrawingTol="1" simplifyAlgorithm="0" geometry="Point" legendPlaceholderImage="" simplifyLocal="1" minScale="100000000" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" type="vector" autoRefreshMode="Disabled" autoRefreshTime="0" symbologyReferenceScale="-1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" wkbType="Point" labelsEnabled="0">
-      <extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </wgs84extent>
       <id>data_kafe_cd01db24_3fb0_4954_b085_07133b4072a7</id>
       <datasource>./data_kafe.shp</datasource>
       <keywordList>
@@ -3988,18 +3964,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyDrawingTol="1" simplifyAlgorithm="0" geometry="Point" legendPlaceholderImage="" simplifyLocal="1" minScale="100000000" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" type="vector" autoRefreshMode="Disabled" autoRefreshTime="0" symbologyReferenceScale="-1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" wkbType="Point" labelsEnabled="0">
-      <extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </wgs84extent>
       <id>data_kampus_84fe088a_7cc8_4ff4_8152_98817af4002e</id>
       <datasource>./data_kampus.shp</datasource>
       <keywordList>
@@ -4364,18 +4328,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyDrawingTol="1" simplifyAlgorithm="0" geometry="Point" legendPlaceholderImage="" simplifyLocal="1" minScale="100000000" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" type="vector" autoRefreshMode="Disabled" autoRefreshTime="0" symbologyReferenceScale="-1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" wkbType="Point" labelsEnabled="0">
-      <extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </wgs84extent>
       <id>data_minimarket_68de4f0c_78a7_41ff_afdb_1e334ec826e1</id>
       <datasource>./data_minimarket.shp</datasource>
       <keywordList>
@@ -5475,18 +5427,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyDrawingTol="1" simplifyAlgorithm="0" geometry="Line" legendPlaceholderImage="" simplifyLocal="1" minScale="100000000" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" type="vector" autoRefreshMode="Disabled" autoRefreshTime="0" symbologyReferenceScale="-1" readOnly="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" wkbType="MultiLineString" labelsEnabled="0">
-      <extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>0</xmin>
-        <ymin>0</ymin>
-        <xmax>0</xmax>
-        <ymax>0</ymax>
-      </wgs84extent>
       <id>jalan_941c79c9_f8fe_48f5_af0f_343d0d56303a</id>
       <datasource>./jalan.shp</datasource>
       <keywordList>
@@ -5927,7 +5867,7 @@ def my_form_open(dialog, layer, feature):
     <parentidentifier></parentidentifier>
     <language></language>
     <type></type>
-    <title></title>
+    <title>TUGAS_SIG</title>
     <abstract></abstract>
     <links/>
     <dates>
@@ -5943,7 +5883,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="115.21475568631475994" ymax="-8.6743975122883441" ymin="-8.69548198347583678" xmax="115.24415161286796661">
+    <DefaultViewExtent xmin="115.2062643293177473" ymax="-8.6743975122883441" ymin="-8.69548198347583678" xmax="115.25264296986497925">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
         <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
